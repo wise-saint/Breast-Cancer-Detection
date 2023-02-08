@@ -41,11 +41,12 @@ Formula for standarization: **x<sub>new</sub> = (x<sub>old</sub>-μ)/σ**
 2. Accuracy Score <br>
 
 **Confusion Matrix:** <br>
-![Screenshot (14)](https://user-images.githubusercontent.com/58243776/216496572-5dad9ba5-9bf2-4192-91f6-33cd64d19f62.png)
+![Screenshot (15)](https://user-images.githubusercontent.com/58243776/217443727-e40343a8-59b6-4155-a1c2-7cc6c1f4e3b1.png)
+
 
 
 **Precision** = TP/(TP + FP) <br>
-**Recall** = TP/(TP + FP) <br>
+**Recall** = TP/(TP + FN) <br>
 **F1 Score** = 2*(Precision * Recall)/(Precision + Recall) <br>
 **Accuracy Score** = (TP + TN)/(TP + FP + FN + TN)
 
